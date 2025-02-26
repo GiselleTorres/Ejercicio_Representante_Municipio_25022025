@@ -11,14 +11,16 @@ public class Main {
         int e = 500;
         int x=0, f=0, g=0, h = 0, i = 0, j = 0, k = 0, l = 0, m = 0, n = 0, o = 0, p = 0, q = 0;
         do {
-            System.out.println("Holaa! soy tu marranito, por favor selecciona " +
-                    "la opcion que deseas realizar en el siguiente menu ");
-            System.out.println("*********************************************");
-            System.out.println("* 1.Agregar una moneda                      *");
-            System.out.println("* 2.Saber cuantas monedas tengo de cada una *");
-            System.out.println("* 3.Calcular el total ahorrado              *");
-            System.out.println("* 4.Vaciar el contenido                     *");
-            System.out.println("*********************************************");
+            System.out.println("Bienvenido al puesto de votacion de nuestro municipio PREMIER");
+            System.out.println("A continuacion te presentamos las opciones que puedes elegir");
+            System.out.println("*******************************************************");
+            System.out.println("* 1.Registrar voto a un candidato                     *");
+            System.out.println("* 2.Calcular el costo de la campaña de cada candidato *");
+            System.out.println("* 3.Vaciar urnas de votacion                          *");
+            System.out.println("* 4.Calcular numero total de votos                    *");
+            System.out.println("* 5.Porcentaje de votos obtenidos por cada candidato  *");
+            System.out.println("* 6.Costo promedio de las campañas                    *");
+            System.out.println("*******************************************************");
 
 
             Scanner teclado = new Scanner(System.in);
